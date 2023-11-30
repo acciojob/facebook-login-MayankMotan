@@ -3,71 +3,47 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	width: 100vw;
+	height: 10vh;
+	width: 30vh;
 }
 
-.container{
-	display: flex;
-  justify-content: space-between;
-  width: 800px;
-  margin-top: 70px;
-}
 .left{
 	width: 450px;
+	margin-top: 70px;
 	display: inline-block;
 }
 
-.right{
-	display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 300px;
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
+form{
+    display: flex;
+	width: 300px;
+    background-color: #ffffff;
+	padding: 20px;
+	border-radius: 5px;
+    flex-direction: column;
+   box-shadow: 0 0 10px #ccc;
+	gap: 10px;
 }
 
 input{
-	margin:5px;
-	width:90%;
-	border: 1px solid rgb(204, 204, 204);
+	border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
 }
 
 button {
-  background-color: rgb(24, 119, 242);
+  background-color: #1877f2;
   border-radius: 5px;
   padding: 10px 20px;
-  width: 100%;
-  color: white;
-  border: none;
-  cursor: pointer;
 }
 
 a {
-  text-decoration: none solid rgb(24, 119, 242);
-  color: rgb(24, 119, 242);
+  text-decoration: none;
+  color: #1877f2;
 }
 
 .signup {
-  background-color: rgb(66, 183, 42);
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  color: white;
+  background-color: #42b72a;
 }
 
-form{
-	gap: 10px;
-    display: flex;
-    border-radius: 5px; 
-    background-color: rgba(0, 0, 0, 0);
-    flex-direction: column;
-    align-items: flex-start;
-   box-shadow: rgb(204, 204, 204) 0px 0px 10px 0px ;
-}
 	
 
